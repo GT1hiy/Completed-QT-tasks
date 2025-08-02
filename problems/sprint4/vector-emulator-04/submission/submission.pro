@@ -12,9 +12,10 @@ CONFIG += c++20
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += \\
-    main.cpp
-    mainwindow.cpp
+SOURCES += \
+    mainwindow.cpp \
+    main.cpp 
+
 
 HEADERS += \
     mainwindow.h \

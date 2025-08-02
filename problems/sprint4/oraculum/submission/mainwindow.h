@@ -19,7 +19,7 @@ public:
 
 private:
     void ShowQuestion();
-
+    
     void Reset();
 
 private slots:
@@ -29,7 +29,7 @@ private slots:
 
 private:
     // Разместите тут переменные, использующиеся в бинарном поиске:
-    // a_, b_, m_.
+    int a_, b_, m_;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

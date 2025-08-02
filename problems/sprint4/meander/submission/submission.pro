@@ -1,7 +1,3 @@
-########
-MOCK_LIB=../../../../mocks_library
-########
-
 QT       += core gui multimedia widgets
 
 CONFIG += c++20

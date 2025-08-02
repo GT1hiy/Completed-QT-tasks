@@ -15,6 +15,8 @@ public:
     View(QWidget *parent = nullptr);
     ~View();
 
+    void UpdateStatus();
+
     void SetupField(size_t size_x, size_t size_y);
 
     void UpdateCell(size_t x, size_t y, QString new_value);
