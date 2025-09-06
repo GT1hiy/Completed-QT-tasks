@@ -39,8 +39,6 @@ class Controller {
 
 public:
 
-    // Напишите контроллер.
-
     Controller(){
         auto callback_new_game = [&](size_t x, size_t y){
             model_.Reset(x, y);
