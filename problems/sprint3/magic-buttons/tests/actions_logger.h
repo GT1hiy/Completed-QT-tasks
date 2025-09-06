@@ -3,7 +3,7 @@
 #include <vector>
 #include <functional>
 
-
+//new
 class ActionsLogger
 {
 public:
