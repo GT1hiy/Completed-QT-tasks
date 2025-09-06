@@ -1,6 +1,6 @@
 #pragma once
 #include <QString>
-
+//new part 2
 void OpenCustomUrl(const QString& url);
 void OpenCustomDirectory(const QString& path);
 
