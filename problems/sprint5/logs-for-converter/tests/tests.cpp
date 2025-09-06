@@ -23,7 +23,7 @@ class TestYourApp : public QObject
 public:
     TestYourApp()=default;
     ~TestYourApp()=default;
-
+    //import
 private slots:
     void cleanupTestCase();
     void init();
