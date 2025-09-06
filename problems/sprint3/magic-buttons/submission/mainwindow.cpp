@@ -19,7 +19,7 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
+//new part
 void MainWindow::slotShowAction(int num, QString action_name, std::function<void()> action) {
     // Сохраните действие, которое будет делать кнопка с номером num.
     // Действие находится в функциональном объекте action.
